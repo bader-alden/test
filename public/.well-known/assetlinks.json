@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "com.tatbeky.auction_app",
+            "sha256_cert_fingerprints": [
+                "29:CD:8C:EA:86:EE:6A:CB:7D:CE:7E:99:AB:8B:D8:43:95:D5:B6:37:9E:A7:52:55:0A:54:5B:AD:D3:98:48:20"
+            ]
+        }
+    }
+]
