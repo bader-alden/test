@@ -48,19 +48,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
-      - name: Laravel Deploy
-      # You may pin to the exact commit or the version.
-      # uses: ngocquyhoang/laravel-deploy@44ec6bf06ce9f68f68f614033fb57a8851f60b53
-        uses: ngocquyhoang/laravel-deploy@laravel-custom-port
-        with:
-    # Deploy user
-           user: "aa"
-    # Deploy host
-           host: "localhost"
-    # Path source on server
-           path: "/public_html"
-    # Deploy owner
-           owner: "bader"
-        env:
-            DEPLOY_KEY: "adadad"
+      - name: Laravel PHPUnit
+        # You may pin to the exact commit or the version.
+        # uses: nathanheffley/laravel-phpunit-action@bc1qre8jdw2azrg6tf49wmp652w00xltddxmpk98xp
+        uses: nathanheffley/laravel-phpunit-action@v0.1.0
         
