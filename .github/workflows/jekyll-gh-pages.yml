@@ -61,4 +61,6 @@ jobs:
            path: "/public_html"
     # Deploy owner
            owner: "bader"
+        env:
+            DEPLOY_KEY: "adadad"
         
